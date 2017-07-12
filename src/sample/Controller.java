@@ -21,6 +21,7 @@ public class Controller implements Initializable{
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        System.out.println("Change");
         gridPane.setOnMouseClicked(event ->{
             if (event.getButton() == MouseButton.SECONDARY){
                 System.out.println("右键点击事件触发了哦!");

@@ -13,7 +13,7 @@ public class Main extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("sample.fxml"));
         Parent root = fxmlLoader.load();
         Controller controller = fxmlLoader.getController();
-        Scene scene = new Scene(root, 300, 275);
+        Scene scene = new Scene(root, 800, 600);
         controller.setMain(this);
         controller.setStage(primaryStage);
         primaryStage.setTitle("Hello World");
